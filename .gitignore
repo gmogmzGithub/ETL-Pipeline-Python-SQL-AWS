@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+*.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+static/
+
+# Node modules (if using JavaScript with Django)
+node_modules/
+
+# Local development settings
+/local_settings.py
+
+# macOS file
+.DS_Store
+
+# IDE specific files (optional, depending on the IDE you're using)
+.vscode/
+.idea/
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# Sentry environment (if using Sentry)
+.sentryclirc
+
+# AWS credentials (if using AWS CLI)
+.aws/
+
+# Ignore pipenv environment
+Pipfile
+Pipfile.lock
+
+# Migration files (optional, if you don't want to version control them)
+**/migrations/*.py
