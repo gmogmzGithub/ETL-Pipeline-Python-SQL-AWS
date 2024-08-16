@@ -1,7 +1,7 @@
-from django.contrib import admin
-from django.urls import path, include  # Make sure to include 'include'
+from django.urls import path
+from . import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/', include('api.urls')),  # Add this to include the api app's URLs
+    path('extract', views.extract_data, name='extract_data'),
+    path('transform', views.transform_data, name='transform_data'),
 ]
