@@ -130,7 +130,7 @@ MONGO_PORT = 27017
 MYSQL = {
     'HOST': 'mysql-aws-db.c5mwiscwue69.us-west-1.rds.amazonaws.com',
     'USER': 'admin',
-    'PASSWORD': 'mysqlawspass',
+    'PASSWORD': '-',
     'DATABASE': 'mysql_etl_pipeline',
     'PORT': 3306,
 }
@@ -139,7 +139,7 @@ MYSQL = {
 POSTGRES = {
     'HOST': 'postgres-aws-db.c5mwiscwue69.us-west-1.rds.amazonaws.com',
     'USER': 'postgres',
-    'PASSWORD': 'postgresawspass',
+    'PASSWORD': '-',
     'DATABASE': 'postgres_etl_pipeline',
     'PORT': 5432,
 }
