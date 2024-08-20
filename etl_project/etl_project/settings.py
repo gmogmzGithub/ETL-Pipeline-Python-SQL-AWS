@@ -125,3 +125,55 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 MONGO_DB_NAME = 'etl_database'
 MONGO_HOST = 'localhost'
 MONGO_PORT = 27017
+
+# AWS Identifier: mysql-aws-db
+MYSQL = {
+    'HOST': 'mysql-aws-db.c5mwiscwue69.us-west-1.rds.amazonaws.com',
+    'USER': 'admin',
+    'PASSWORD': 'mysqlawspass',
+    'DATABASE': 'mysql_etl_pipeline',
+    'PORT': 3306,
+}
+
+# AWS Identifier: postgres-aws-db
+POSTGRES = {
+    'HOST': 'postgres-aws-db.c5mwiscwue69.us-west-1.rds.amazonaws.com',
+    'USER': 'postgres',
+    'PASSWORD': 'postgresawspass',
+    'DATABASE': 'postgres_etl_pipeline',
+    'PORT': 5432,
+}
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{asctime} {name} {levelname} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '{levelname} {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'console': {
+            'level': 'INFO',
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'myapp': {  # Replace with your actual app name
+            'handlers': ['console'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+    },
+}
