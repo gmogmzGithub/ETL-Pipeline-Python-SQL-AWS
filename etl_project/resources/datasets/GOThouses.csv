@@ -1,0 +1,14 @@
+domain,house_id,house_name,motto,seat,sigil
+The North,100,Stark,Winter is Coming,Winterfell,A grey direwolf running across an ice-white field
+The Riverlands,200,Tully,"Family, Duty, Honor",Riverrun,A silver trout leaping across red and blue striped field
+The Westerlands,300,Lannister,Hear Me Roar,Castlery Rock,A golden lion on a crimson field
+The Stormlands & Seven Kingdoms,400,Baratheon,Ours is the Fury,Storm's End,A a crowned black stag on a gold field
+,500,Targaryen,Fire and Blood,King's Landing,A red three-headed dragon on a black field
+The Iron Islands,600,Greyjoy,We Do Not Sow,Pyke,A golden kraken on a black field
+The Reach,700,Tyrell,Growing Strong,Highgarden,A golden rose on a green field
+The Vale,800,Arryn,As High as Honor,The Eyrie,A white falcon and crescent moon on a blue field
+Dorne,900,Martell,"Unbowed, Unbent, Unbroken",Sunspear,A red sun pierced by a golden spear
+Allegiance to House Stark,1000,Bolton,Our Blades are Sharp,The Dreadfort,A red flayed man on a pink field.
+Allegiance to House Tully,1100,Frey,,The Twins,"A pair of blue towers, connected by a blue bridge on a field of silver-grey"
+Allegiance to House Martell,1200,Dayne,,Starfall,A sword and a falling star on a lavender background
+Allegiance to House Stark,1300,Mormont,Here we stand,Bear Island,A black bear in a green wood
